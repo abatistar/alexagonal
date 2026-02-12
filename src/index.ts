@@ -8,13 +8,14 @@ const server = new McpServer({
     version: "1.0.0",
 });
 
-// Registra os recursos e handlers do módulo de auditoria arquitetural
-architectural_audit_tool.register(server);
-
 /**
  * Função principal para inicializar o servidor
  */
 async function main(): Promise<void> {
+
+    // Registra os recursos e handlers do módulo de auditoria arquitetural
+    await architectural_audit_tool.register(server);
+
     const transport = new StdioServerTransport();
     console.error("Alexagonal MCP Server iniciando...");
     await server.connect(transport);
