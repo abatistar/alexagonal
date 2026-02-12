@@ -89,4 +89,4 @@ Para utilizar este servidor com um cliente MCP (como Claude Desktop ou extensõe
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+Este projeto está licenciado sob a licença Apache-2.0 - veja o arquivo [LICENSE](LICENSE) para detalhes.
